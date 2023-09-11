@@ -17,9 +17,9 @@ Server listening on port 8080
 
 And then from a second terminal:
 ```
-$ curl http://0.0.0.0:8080
+$ curl http://127.0.0.1:8080
 Hello, World!
-$ curl http://0.0.0.0:8080/echo/I_love_Dart
+$ curl http://127.0.0.1:8080/echo/I_love_Dart
 I_love_Dart
 ```
 
